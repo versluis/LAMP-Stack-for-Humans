@@ -1,5 +1,7 @@
 # LAMP Stack Backup Script
 
+![LAMP Stack for Humans](https://github.com/versluis/LAMP-Stack-for-Humans/blob/master/Lampstack-Softcover.jpg)
+
 A simple backup script for a single LAMP Stack, as discussed in my book "LAMP Stack for Humans", available from Amazon.com: https://www.amazon.com/dp/B00V6WAHWC
 
 ### Purpose
