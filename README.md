@@ -5,11 +5,11 @@
 A simple backup script for a single LAMP Stack, as discussed in my book "LAMP Stack for Humans", available from Amazon.com: https://www.amazon.com/dp/B00V6WAHWC
 
 ### Purpose
-As I have discussed in my book, if you're running a web application in the comfort of your own home on an hold laptop, it might be a good idea to backup the whole LAMP stack occastionaly. This script is desigend to do just that. 
+As I have discussed in my book, if you're running a web application in the comfort of your own home on an hold laptop, it might be a good idea to backup the whole LAMP stack occasionally. This script is desigend to do just that. 
 
-I have written the script with CentOS in mind. Other distributions store web files in a directory other than /var/www/html. The rest of the script should work fine if you change referneces to this path.
+I have written the script with CentOS in mind. Other distributions store web files in a directory other than /var/www/html. The rest of the script should work fine if you change references to this path.
 
-It assumes that a directory called /backup exists and is ready to accept a complete copy of the whole /var/www/html directory, including a dump of the database. On my box, /backup is an SD card. I have described how the backup and restore process works in my book.
+The script assumes that a directory called /backup exists and is ready to accept a complete copy of the whole /var/www/html directory, including a dump of the database. On my box, /backup is an SD card. I have described how the backup and restore process works in my book, including how to mount SD cards from the command line.
 
 ### Usage
 * Edit the variables at the top of the script to match your stack and preferences
