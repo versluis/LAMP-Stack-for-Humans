@@ -14,7 +14,7 @@ It assumes that a directory called /backup exists and is ready to accept a compl
 * make your file executable (chmod +x)
 * run it as often as you like, perhaps even add it to crontab for automatic backups
 
-### Log FiLes
+### Log Files
 The script can generate two separate log files: 
 
 The LOGFILE is a detailed output of the copying process. This can be rather large, but will flag up problems as they occur. Due to its size, the file is overwritten every time you run this script.
