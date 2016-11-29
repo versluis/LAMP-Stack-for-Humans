@@ -4,16 +4,22 @@
 # Version 0.4
 # 29/11/2016 
 # by Jay Versluis
+# 
+# Find the latest version here: 
+# https://github.com/versluis/LAMP-Stack-for-Humans
 #
 
-# VARIABLES
+# VARIABLES (change to match your setup)
 LOGFILE="/var/log/dailybackup.log"
 MASTERLOG="/var/log/backup.log"
 EMAIL="you@domain.com"
-START_TIME=$(date +"%x %r")
 MYSQL_USER="root"
 MYSQL_PASS="password"
 MYSQL_DB="your-database"
+
+# do not change anything below this message
+# ------------------------------------------
+START_TIME=$(date +"%x %r")
 
 function dumpDatabase {
 
